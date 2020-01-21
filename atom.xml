@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aixiguo.github.io</id>
     <title>Aixi&apos;s page</title>
-    <updated>2020-01-21T07:46:23.492Z</updated>
+    <updated>2020-01-21T07:54:03.453Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aixiguo.github.io"/>
     <link rel="self" href="https://aixiguo.github.io/atom.xml"/>
@@ -10,6 +10,37 @@
     <logo>https://aixiguo.github.io/images/avatar.png</logo>
     <icon>https://aixiguo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Aixi&apos;s page</rights>
+    <entry>
+        <title type="html"><![CDATA[fdisafsdf]]></title>
+        <id>https://aixiguo.github.io/post/fdisafsdf</id>
+        <link href="https://aixiguo.github.io/post/fdisafsdf">
+        </link>
+        <updated>2020-01-21T07:53:38.000Z</updated>
+        <content type="html"><![CDATA[<p>sdfsdfasdf<br>
+sdafsd<br>
+fas<br>
+f<br>
+sadfs<br>
+adfs<br>
+afas<br>
+fsa<br>
+fasdf<br>
+sd</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[test]]></title>
+        <id>https://aixiguo.github.io/post/test</id>
+        <link href="https://aixiguo.github.io/post/test">
+        </link>
+        <updated>2020-01-21T07:50:36.000Z</updated>
+        <summary type="html"><![CDATA[<p>test</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>test</p>
+<!-- more -->
+<p>😏</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://aixiguo.github.io/post/hello-gridea</id>
