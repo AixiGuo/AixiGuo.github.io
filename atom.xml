@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aixiguo.github.io</id>
     <title>Aixi&apos;s page</title>
-    <updated>2020-01-21T07:54:03.453Z</updated>
+    <updated>2020-01-21T10:01:42.910Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aixiguo.github.io"/>
     <link rel="self" href="https://aixiguo.github.io/atom.xml"/>
@@ -16,12 +16,21 @@
         <link href="https://aixiguo.github.io/post/fdisafsdf">
         </link>
         <updated>2020-01-21T07:53:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>sdfsdfasdf<br>
+sdafsd<br>
+fas<br>
+f<br>
+sadfs<br>
+adfs</p>
+]]></summary>
         <content type="html"><![CDATA[<p>sdfsdfasdf<br>
 sdafsd<br>
 fas<br>
 f<br>
 sadfs<br>
-adfs<br>
+adfs</p>
+<!-- more -->
+<p>😝😝😝😝😝😝😝🚩🚩🚩🚩🚩<br>
 afas<br>
 fsa<br>
 fasdf<br>
