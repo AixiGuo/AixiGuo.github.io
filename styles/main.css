@@ -7,7 +7,6 @@ a {
 .k-container {
   margin: 0 auto;
   width: 100%;
-  max-width: 900px;
   flex-shrink: 0;
 }
 .head_card-offset {
@@ -90,3 +89,7 @@ a {
 .doc-footer-nav-right .doc-footer-nav-chapter {
   margin-right: 34px;
 }
+
+    .header {background-image: url(/media/img/background2.jpg);}
+    .index-img{ background-image: url(/media/img/background2.jpg);}
+    
