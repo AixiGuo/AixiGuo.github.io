@@ -35,7 +35,7 @@
 
         <!--    <a href="javascript:history.go(0);" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
 
-        <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+        <a href="javascript:;" mdui-drawer="{target: '#right-drawer',overlay:true}" class="mdui-btn mdui-btn-icon">
             <i class="ic-color-white mdui-icon material-icons">more_vert</i></a>
     </header>
 
@@ -65,65 +65,109 @@
     </div>
 
 
+
     <div class="mdui-drawer mdui-color-white mdui-drawer-full-height mdui-drawer-close" id="left-drawer">
-    <ul class="mdui-list">
-        <li class="mdui-subheader">Menu</li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/" class="mdui-list-item-content">Home</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/archives" class="mdui-list-item-content">Archives</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/tags" class="mdui-list-item-content">Tags</a>
-        </li>
-        
-        <li class="mdui-list-item mdui-ripple">
-            <a href="/post/about" class="mdui-list-item-content">About me</a>
-        </li>
-        
-    </ul>
-</div>
-
-
-        <div class="headertop filter-grid" style="height: auto">
-            <figure id="centerbg" class="centerbg">
-                <div class="focusinfo">
-                    <div class="header-tou">
-                        <a href="/post/about-me/index.html">
-                            <img src="/images/avatar.png">
-                        </a>
-                    </div>
-                    <div class="header-info">
-                        <p>
-                            Welcome to Aixi&#39;s Page! 
-Page is now under development. Please come back later.
-                        </p>
-                    </div>
-                    <div class="top-social">
-                        
-                                
-                                        
-                                                
-                                                        
-                                                                
-                                                                    <li>
-                                                                        <a href="https://github.com/AixiGuo" target="_blank" class="social-wangyiyun" title="Github">
-                                                                            <div class="www" id="github"></div>
-                                                                        </a>
-                                                                    </li>
-                                                                    
-                    </div>
-                </div>
-            </figure>
-        </div>
-        <div class="mdui-container">
-            <div class="mdui-row ">
-                <div class="head_card-offset"></div>
+        <ul class="mdui-list">
+            <li class="mdui-subheader">Menu</li>
+            
+                <li class="mdui-list-item mdui-ripple">
+                    <a href="/" class="mdui-list-item-content">
+                        Home
+                    </a>
+                </li>
                 
+                <li class="mdui-list-item mdui-ripple">
+                    <a href="/archives" class="mdui-list-item-content">
+                        Archives
+                    </a>
+                </li>
+                
+                <li class="mdui-list-item mdui-ripple">
+                    <a href="/tags" class="mdui-list-item-content">
+                        Tags
+                    </a>
+                </li>
+                
+                <li class="mdui-list-item mdui-ripple">
+                    <a href="/post/about" class="mdui-list-item-content">
+                        About me
+                    </a>
+                </li>
+                
+        </ul>
+    </div>
+    <div class="mdui-drawer mdui-drawer-right mdui-color-white mdui-drawer-full-height mdui-drawer-close" id="right-drawer">
+        <ul class="mdui-list">
+            
+                
+
+                    <li class="mdui-subheader">
+                        2020
+                    </li>
+                    <div class="mdui-divider"></div>
+                    
+
+                        <li class="mdui-list-item mdui-ripple">
+                            <a href="https://aixiguo.github.io/post/about-me" class="mdui-list-item-content">
+                                <i class="mdui-icon material-icons">description</i>
+                                About ME
+                            </a>
+                        </li>
+                        
+
+                    <li class="mdui-subheader">
+                        2019
+                    </li>
+                    <div class="mdui-divider"></div>
+                    
+
+                        <li class="mdui-list-item mdui-ripple">
+                            <a href="https://aixiguo.github.io/post/test" class="mdui-list-item-content">
+                                <i class="mdui-icon material-icons">description</i>
+                                test
+                            </a>
+                        </li>
+                        
+        </ul>
+    </div>
+
+    <div class="headertop filter-grid" style="height: auto">
+        <figure id="centerbg" class="centerbg">
+            <div class="focusinfo">
+                <div class="header-tou">
+                    <a href="/post/about-me/index.html">
+                        <img src="/images/avatar.png">
+                    </a>
+                </div>
+                <div class="header-info">
+                    <p>
+                        <p>Welcome to Aixi's Page!</p>
+<p>Page is now under development. Please come back later.</p>
+                    </p>
+                </div>
+                <div class="top-social">
+
+                    
+                        <li>
+                            <a href="https://github.com/AixiGuo" target="_blank" class="social-wangyiyun" title="Github">
+                                <div class="www" id="github"></div>
+                            </a> 
+                        </li>
+                    
+                    
+                    <li>
+                        <a href = "/post/about-me/index.html " target="_blank" class="social-wangyiyun" title="Contact">
+                            <i class="www mdui-icon material-icons" style="font-size: 31px;padding-top: 3px;"> local_phone </i>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </figure>
+    </div>
+    <div class="mdui-container">
+        <div class="mdui-row ">
+            <div class="head_card-offset"></div>
+            
     
                 
 
@@ -144,14 +188,32 @@ Page is now under development. Please come back later.
                     </div>
                     
                         
-            </div>
-            <div class="mdui-row">
-            </div>
+    
+                
+
+                    <div class="mdui-card mdui-ripple  mdui-hoverable ic-card-normal" postURL="https://aixiguo.github.io/post/test">
+                        <div class="ic-card-backgournd" style="background:url('https://aixiguo.github.io/media/img/smallPageLogo.jpg')" />
+                    </div>
+
+                    <div class="ic-card-covered">
+                        <img class="ic-card-title-avatar" src="/images/avatar.png" />
+                        <div class="ic-card-header-title" style="font-size: 27px;top: 40px;">
+                            test
+                        </div>
+                        <div class="ic-card-header-date" style="font-size: 17px;">
+                            2019-09-11 14:10:27
+                        </div>
+
+                    </div>
+                    </div>
+                    
+                        
         </div>
+        <div class="mdui-row">
+        </div>
+    </div>
 
-
-
-        <footer class="mdui-container footer ">
+    <footer class="mdui-container footer ">
     <div class="head_card-offset"></div>
     <div class="mdui-row mdui-row-gapless">
         <div class="k-container">
@@ -184,12 +246,11 @@ Page is now under development. Please come back later.
         <div class="live_ico_item type_quit" id="hideButton"></div>
         <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
         <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
-        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
-        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
+        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden"> 
         <input id="duType" value="douqilai,l2d_caihong" type="hidden">
     </div>
 </div>
-<div id="open_live2d">召唤伊斯特瓦尔</div>
+<div id="open_live2d">Click me</div>
 <script>
     var message_Path = '/media/live2d/';//资源目录，如果目录不对请更改
     var talkAPI = "";//如果有类似图灵机器人的聊天接口请填写接口路径

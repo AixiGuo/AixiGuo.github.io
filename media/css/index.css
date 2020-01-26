@@ -150,24 +150,24 @@ body {
     margin: 0;
 }
 
-.top-social {
-    height: 32px;
-    margin-top: 30px;
-    margin-left: 10px;
+.top-social { 
+    margin-top: 30px; 
     list-style: none;
     display: inline-block;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0,0.3);
     font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
 }
 
 .top-social li {
-    float: left;
-    margin-right: 10px;
+    padding:5px;
+    float: left; 
 }
 
 .www {
     width: 35px;
     height: 35px;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 1);
     border-radius: 100%;
 }
 
@@ -202,7 +202,8 @@ body {
 
 #github {
     background-image: url(../img/icons.png);
-    background-position: -258px -144px
+    background-position: -258px -144px;
+    
 }
 
 .site-info {
