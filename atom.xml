@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aixiguo.github.io</id>
     <title>Aixi&apos;s page</title>
-    <updated>2020-01-25T11:16:41.852Z</updated>
+    <updated>2020-01-26T04:11:06.108Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aixiguo.github.io"/>
     <link rel="self" href="https://aixiguo.github.io/atom.xml"/>
@@ -12,36 +12,10 @@ Page is now under development. Please come back later.</subtitle>
     <icon>https://aixiguo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Aixi&apos;s page</rights>
     <entry>
-        <title type="html"><![CDATA[12]]></title>
-        <id>https://aixiguo.github.io/post/12</id>
-        <link href="https://aixiguo.github.io/post/12">
+        <title type="html"><![CDATA[About ME]]></title>
+        <id>https://aixiguo.github.io/post/about-me</id>
+        <link href="https://aixiguo.github.io/post/about-me">
         </link>
-        <updated>2020-01-25T08:53:06.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Second page]]></title>
-        <id>https://aixiguo.github.io/post/second-page</id>
-        <link href="https://aixiguo.github.io/post/second-page">
-        </link>
-        <updated>2020-01-25T08:16:48.000Z</updated>
-        <summary type="html"><![CDATA[<p>123<br>
-<img src="https://aixiguo.github.io/post-images/1579940218631.png" alt="" loading="lazy"></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>123<br>
-<img src="https://aixiguo.github.io/post-images/1579940218631.png" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Page]]></title>
-        <id>https://aixiguo.github.io/post/first-page</id>
-        <link href="https://aixiguo.github.io/post/first-page">
-        </link>
-        <updated>2020-01-25T08:08:18.000Z</updated>
-        <summary type="html"><![CDATA[<p>This is the first page<br>
-<img src="https://aixiguo.github.io/post-images/1579939750754.png" alt="icon" loading="lazy"></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>This is the first page<br>
-<img src="https://aixiguo.github.io/post-images/1579939750754.png" alt="icon" loading="lazy"></p>
-]]></content>
+        <updated>2020-01-26T02:30:41.000Z</updated>
     </entry>
 </feed>
