@@ -12,8 +12,7 @@
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
-    <link rel="stylesheet" href="/media/css/index.css">
-    <link rel="stylesheet" href="/media/live2d/css/live2d.css" />
+    <link rel="stylesheet" href="/media/css/index.css"> 
     <style>
         #centerbg {
             background-image: url(/media/img/background2.jpg);
@@ -108,6 +107,14 @@
                     
 
                         <li class="mdui-list-item mdui-ripple">
+                            <a href="https://aixiguo.github.io/post/masterarbeit-birdgo" class="mdui-list-item-content">
+                                <i class="mdui-icon material-icons">description</i>
+                                MasterArbeit - BirdGO
+                            </a>
+                        </li>
+                        
+
+                        <li class="mdui-list-item mdui-ripple">
                             <a href="https://aixiguo.github.io/post/about-me" class="mdui-list-item-content">
                                 <i class="mdui-icon material-icons">description</i>
                                 About ME
@@ -157,6 +164,26 @@
     
                 
 
+                    <div class="mdui-card mdui-ripple  mdui-hoverable ic-card-normal" postURL="https://aixiguo.github.io/post/masterarbeit-birdgo">
+                        <div class="ic-card-backgournd" style="background:url('https://aixiguo.github.io/post-images/masterarbeit-birdgo.png')" />
+                    </div>
+
+                    <div class="ic-card-covered">
+                        <img class="ic-card-title-avatar" src="/images/avatar.png" />
+                        <div class="ic-card-header-title" style="font-size: 27px;top: 40px;">
+                            MasterArbeit - BirdGO
+                        </div>
+                        <div class="ic-card-header-date" style="font-size: 17px;">
+                            2020-01-27 12:21:44
+                        </div>
+
+                    </div>
+                    </div>
+                    
+                        
+    
+                
+
                     <div class="mdui-card mdui-ripple  mdui-hoverable ic-card-normal" postURL="https://aixiguo.github.io/post/about-me">
                         <div class="ic-card-backgournd" style="background:url('https://aixiguo.github.io/post-images/about-me.jpg')" />
                     </div>
@@ -191,40 +218,10 @@
         Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
     </div>
 </footer>
-<div id="landlord" style="left:5px;bottom:0px;">
-    <div class="message" style="opacity:0"></div>
-    <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
-    <div class="live_talk_input_body">
-        <div class="live_talk_input_name_body">
-            <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off" placeholder="你的名字" />
-        </div>
-        <div class="live_talk_input_text_body">
-            <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off" placeholder="要和我聊什么呀？"/>
-            <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
-        </div>
-    </div>
-    <input name="live_talk" id="live_talk" value="1" type="hidden" />
-    <div class="live_ico_box">
-        <div class="live_ico_item type_info" id="showInfoBtn"></div>
-        <div class="live_ico_item type_talk" id="showTalkBtn"></div>
-        <div class="live_ico_item type_music" id="musicButton"></div>
-        <div class="live_ico_item type_youdu" id="youduButton"></div>
-        <div class="live_ico_item type_quit" id="hideButton"></div>
-        <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
-        <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
-        <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden"> 
-        <input id="duType" value="douqilai,l2d_caihong" type="hidden">
-    </div>
-</div>
-<div id="open_live2d">Click me</div>
-<script>
-    var message_Path = '/media/live2d/';//资源目录，如果目录不对请更改
-    var talkAPI = "";//如果有类似图灵机器人的聊天接口请填写接口路径
-</script>
+ 
+ 
 <!--<script src="/media/js/jquery-3.3.1.min.js"></script>-->
-<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src="/media/live2d/js/live2d.js"></script>
-<script type="text/javascript" src="/media/live2d/js/message.js"></script>
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>  
 
 </body>
 <script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
